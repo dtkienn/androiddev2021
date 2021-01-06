@@ -9,12 +9,15 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class ForecastFragment extends Fragment {
-    View view;
+public class WeatherAndForecastFragment extends Fragment {
+    public WeatherAndForecastFragment(){
+
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.forecast_fragment, container, false);
-        return view;
+        return inflater.inflate(R.layout.weatherandforecastfragment, container, false);
     }
 }
+

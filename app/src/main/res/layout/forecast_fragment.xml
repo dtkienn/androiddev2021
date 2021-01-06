@@ -5,140 +5,146 @@
     android:layout_height="match_parent"
     tools:context=".ForecastFragment"
     android:id="@+id/fragment"
-    android:background="@color/cardview_light_background"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Mon"/>
+            android:text="@string/mon"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:src="@drawable/cloudy" />
+            android:src="@drawable/cloudy"
+            android:paddingLeft="20px"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
-            android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:paddingLeft="50px"
+            android:text="@string/sunny"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Tue"/>
+            android:text="@string/tue"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/cloudy"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/cloudy"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Wed"/>
+            android:text="@string/wed"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/rain"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/rainy"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Thu"/>
+            android:text="@string/thu"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/sunny"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/cloudy"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Fri"/>
+            android:text="@string/fri"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/mostly_cloudy"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/rainy"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Sat"/>
+            android:text="@string/sat"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/cloudy"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/sunny"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="100px"
-        android:paddingTop="100px">
+        android:paddingTop="15px"
+        android:orientation="horizontal">
         <TextView
             android:layout_width="50dp"
             android:layout_height="match_parent"
-            android:text="Sun"/>
+            android:text="@string/sun"/>
         <ImageView
             android:layout_width="50dp"
             android:layout_height="match_parent"
             android:src="@drawable/cloudy"/>
         <TextView
-            android:layout_width="100dp"
+            android:layout_width="200dp"
             android:layout_height="match_parent"
             android:paddingLeft="50dp"
-            android:text="Hi"/>
+            android:text="@string/windy"/>
     </LinearLayout>
 
 </LinearLayout>
